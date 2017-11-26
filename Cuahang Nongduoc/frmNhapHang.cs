@@ -324,8 +324,5 @@ namespace CuahangNongduoc
             NCC.ShowDialog();
             ctrlNCC.HienthiAutoComboBox(cmbNhaCungCap);
         }
-    
-     
-
     }
 }
