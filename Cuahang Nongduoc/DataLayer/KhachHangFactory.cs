@@ -14,7 +14,6 @@ namespace CuahangNongduoc.DataLayer
         {
             OleDbCommand cmd = new OleDbCommand("SELECT * FROM KHACH_HANG WHERE LOAI_KH = " + loai);
             m_Ds.Load(cmd);
-
             return m_Ds;
         }
         public DataTable TimHoTen(String hoten, bool loai)

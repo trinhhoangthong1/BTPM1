@@ -9,9 +9,6 @@ namespace CuahangNongduoc.DataLayer
     public class ChiTietPhieuBanFactory
     {
         DataService m_Ds = new DataService();
-
-      
-
         public DataTable LayChiTietPhieuBan(String idPhieuBan)
         {
             OleDbCommand cmd = new OleDbCommand("SELECT * FROM CHI_TIET_PHIEU_BAN WHERE ID_PHIEU_BAN = @id");
